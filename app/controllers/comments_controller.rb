@@ -23,7 +23,7 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id])
     @comment= Comment.find(params[:id])
     if @comment.update(comment_params)
-      redirect_to user_comment_path
+      redirect_to user_post_path(current_user.id, @post.id)
     else
       render :edit
     end
@@ -34,6 +34,7 @@ class CommentsController < ApplicationController
   end
 
   def destroy
+    @user = current_user.id
     @post = Post.find(params[:post_id])
     @comment = Comment.find(params[:id])
     @comment.destroy
