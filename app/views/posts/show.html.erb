@@ -2,9 +2,22 @@
 
 <% @post.comments.any? %>
 <% @post.comments.each do |comment| %>
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title"><small><%= User.find(comment.user_id).user_name %></small></span>
+        <%= comment.solution %>
+      </div>
+      <div class="card-action">
+        <%= link_to "edit", edit_post_comment_path(@post, comment.id)%>
+        <%= link_to "Delete", post_comment_path(@post, comment.id),
+        :data => {:confirm => "You sure?", :method => "delete"} %>
+      </div>
+    </div>
+  </div>
+</div>
 <br>
-<%= comment.solution %>| <%= link_to "edit", edit_post_comment_path(@post, comment.id)%> | <%= link_to "Delete", post_comment_path(@post, comment.id),
-:data => {:confirm => "You sure?", :method => "delete"} %>
 <% end %>
 <br>
 <%= link_to "Add solution", new_post_comment_path(@post) %>
