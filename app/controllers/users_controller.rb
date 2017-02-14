@@ -15,6 +15,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to '/'
+  end
+
 private
   def user_params
     params.require(:user).permit(:user_name, :first_name, :last_name, :email, :password)

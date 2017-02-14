@@ -20,7 +20,7 @@ class PostsController < ApplicationController
   def update
     @post= Post.find(params[:id])
     if @post.update(post_params)
-      redirect_to user_post_path
+      redirect_to '/'
     else
       render :edit
     end

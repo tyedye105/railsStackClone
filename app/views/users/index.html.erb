@@ -7,7 +7,8 @@
 <h2>Here are the questions needing answers:</h2>
   <% if @posts.any? %>
   <% @posts.each do |post| %>
-  <%= link_to post.content.truncate(50), user_post_path(current_user.id, post.id) %>
+  <%= link_to post.content.truncate(50), user_post_path(current_user.id, post.id) %> |  <%= link_to 'Edit', edit_user_post_path(current_user.id, post.id) %> |
+  <%= link_to 'Delete', user_path(post.id), :data => {:confirm => "You sure?", :method => "delete"}  %>
   <% end %>
   <% else %>
   <%= link_to "Create new Post", new_user_post_path(current_user.id) %>

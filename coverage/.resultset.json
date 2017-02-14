@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/stack_overflow_clone/spec/controllers/sessions_controller_spec.rb": [
+      "/Users/Guest/Desktop/stack_overflow_clone/spec/controllers/comments_controller_spec.rb": [
         1,
         null,
         1,
@@ -240,6 +240,55 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/stack_overflow_clone/app/helpers/comments_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/stack_overflow_clone/app/controllers/comments_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/stack_overflow_clone/app/controllers/posts_controller.rb": [
         1,
         1,
@@ -358,6 +407,7 @@
         1,
         1,
         1,
+        1,
         null,
         null
       ],
@@ -403,6 +453,16 @@
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/stack_overflow_clone/spec/controllers/sessions_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/spec/controllers/users_controller_spec.rb": [
@@ -410,6 +470,23 @@
         null,
         1,
         null,
+        null
+      ],
+      "/Users/Guest/Desktop/stack_overflow_clone/spec/helpers/comments_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/spec/models/comment_spec.rb": [
@@ -452,6 +529,6 @@
         null
       ]
     },
-    "timestamp": 1487108127
+    "timestamp": 1487109225
   }
 }
