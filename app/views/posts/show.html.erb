@@ -1,3 +1,4 @@
 <%= @post.content %>
 
 <%= link_to 'Edit', edit_user_post_path(current_user.id, @post.id) %>
+<%= link_to 'Delete', user_post_path(@post.id), :data => {:confirm => "You sure?", :method => "delete"}  %> 
