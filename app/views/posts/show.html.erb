@@ -3,7 +3,7 @@
 <% @post.comments.any? %>
 <% @post.comments.each do |comment| %>
 <br>
-<%= comment.solution %>| <%= link_to "edit", edit_post_comment_path(@post, comment.id)%> | <%= link_to "Delete", post_path(@post, comment.id),
+<%= comment.solution %>| <%= link_to "edit", edit_post_comment_path(@post, comment.id)%> | <%= link_to "Delete", post_comment_path(@post, comment.id),
 :data => {:confirm => "You sure?", :method => "delete"} %>
 <% end %>
 <br>
