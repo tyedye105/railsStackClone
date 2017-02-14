@@ -240,14 +240,6 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow_clone/app/helpers/sessions_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow_clone/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
       "/Users/Guest/Desktop/stack_overflow_clone/app/controllers/sessions_controller.rb": [
         1,
         null,
@@ -308,6 +300,11 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/stack_overflow_clone/app/models/post.rb": [
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/stack_overflow_clone/app/models/user.rb": [
         1,
         1,
@@ -317,6 +314,13 @@
         1,
         1,
         1,
+        null
+      ],
+      "/Users/Guest/Desktop/stack_overflow_clone/spec/factories/posts.rb": [
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/spec/factories/users.rb": [
@@ -343,38 +347,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow_clone/spec/helpers/sessions_helper_spec.rb": [
+      "/Users/Guest/Desktop/stack_overflow_clone/spec/models/post_spec.rb": [
         1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow_clone/spec/helpers/users_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/spec/models/user_spec.rb": [
@@ -394,6 +374,6 @@
         null
       ]
     },
-    "timestamp": 1487095279
+    "timestamp": 1487097910
   }
 }
