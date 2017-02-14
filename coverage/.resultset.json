@@ -302,6 +302,7 @@
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/app/models/post.rb": [
         1,
+        1,
         null,
         null
       ],
@@ -355,6 +356,7 @@
         2,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/stack_overflow_clone/spec/models/user_spec.rb": [
@@ -374,6 +376,6 @@
         null
       ]
     },
-    "timestamp": 1487097910
+    "timestamp": 1487098001
   }
 }
