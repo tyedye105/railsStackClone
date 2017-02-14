@@ -1,0 +1,7 @@
+<%= render "layouts/errors", :object => @post %>
+
+<%= form_for [current_user, @post] do |f| %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <%= f.submit class: 'btn'  %>
+<% end %>
