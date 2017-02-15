@@ -21,7 +21,7 @@ $ rails s
 URL: localhost:3000
 ## Known Bugs
 
-If you notice any bugs or problems you can fill out an issue [here](http://www.github.com/kftwotwo/stack-overflow-clone/issues) or feel free to submit a pull request.
+If you notice any bugs or problems you can fill out an issue [here](http://www.github.com/kftwotwo/stack-overflow-clonew/issues) or feel free to submit a pull request.
 
 ## Contact details
 Marty Kovach<br>
